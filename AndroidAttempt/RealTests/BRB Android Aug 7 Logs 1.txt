@@ -1,0 +1,515 @@
+
+D/MyMeetingActivity: onHasDataHelperRightsNotification
+V/BRB: MeetingCommonCallback onChatMessageReceived
+V/BRB: respondToPrivateChatMessage
+V/BRB: trustUser
+V/BRB: No parentheses. First non-whitespace character is not a digit
+    tryParseTag on username Mourud Ishmam Ahmed. Str: null
+    tryParseTag on username Mourud Ishmam Ahmed. Converting to tag.
+V/BRB: trustUser, userId = 16781312
+I/BRB: sdkErr: SDKERR_SUCCESS
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    self message
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    respondToPrivateChatMessage
+V/BRB: respondToHelpCommand, trusted, userId = 16781312
+I/BRB: sdkErr: SDKERR_SUCCESS
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    self message
+V/BRB: MeetingCommonCallback onChatMessageReceived
+V/BRB: respondToPrivateChatMessage
+    respondToAssignAllBreakoutRoomsCommand, userId = 16781312
+I/BRB: sdkErr: SDKERR_SUCCESS
+V/BRB: assignBreakoutRooms()
+    setupBreakoutRooms()
+
+V/BRB: .. inMeetingUserList size: 4
+
+V/BRB: assignBreakoutRooms() .. createOrUpdateUser(16778240)
+V/BRB: tryParseTag on username (3) John Zou. Str: 3
+    tryParseTag on username (3) John Zou. Converting to tag.
+    assignBreakoutRooms() .. createOrUpdateUser(16779264)
+V/BRB: tryParseTag on username (5)Dara. Str: 5
+    tryParseTag on username (5)Dara. Converting to tag.
+    assignBreakoutRooms() .. createOrUpdateUser(16781312)
+V/BRB: tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Str: Ŧ
+    tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Converting to tag.
+
+I/BRB: Phase 1 of BO Rooms Assignment complete
+// Didn't need to do anything for users here
+D/BRB: Phase 2 -- breakoutRoomUsers.size: 3. zoom usersInMeeting.size: 4
+
+V/BRB: tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Str: Ŧ
+    tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Converting to tag.
+    Phase 2 -- User with SID [7a2e0cf3efc0070246ee6f3b3f7ca1a1] and username [(Ŧ) Mourud Ishmam Ahmed] has tag:
+    .. Room Number: [null], isLoneWolf: [false], isTrusted: [true]
+V/BRB: tryParseTag on username (5)Dara. Str: 5
+    tryParseTag on username (5)Dara. Converting to tag.
+    Phase 2 -- User with SID [c7e457c40854978c97facaf740d4021d] and username [(5)Dara] has tag:
+    .. Room Number: [5], isLoneWolf: [false], isTrusted: [false]
+    tryParseTag on username (3) John Zou. Str: 3
+    tryParseTag on username (3) John Zou. Converting to tag.
+    Phase 2 -- User with SID [f54eb02b185a224748bda5f20c5f2faa] and username [(3) John Zou] has tag:
+    .. Room Number: [3], isLoneWolf: [false], isTrusted: [false]
+
+I/BRB: Phase 2 of BO Rooms Assignment complete
+
+V/BRB: MeetingCommonCallback onChatMessageReceived
+V/BRB: self message
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    respondToPrivateChatMessage
+D/BRB: makeHost sdkErr = SDKERR_SUCCESS
+V/BRB: makeHost, userId = 16781312
+I/BRB: sdkErr: SDKERR_SUCCESS
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    self message
+D/MyMeetingActivity: onHasDataHelperRightsNotification
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    respondToPrivateChatMessage
+    respondToAssignAllBreakoutRoomsCommand, userId = 16781312
+I/BRB: sdkErr: SDKERR_SUCCESS
+
+V/BRB: .. inMeetingUserList size: 4
+    assignBreakoutRooms() .. createOrUpdateUser(16778240)
+    tryParseTag on username (3) John Zou. Str: 3
+    tryParseTag on username (3) John Zou. Converting to tag.
+    assignBreakoutRooms() .. createOrUpdateUser(16779264)
+V/BRB: tryParseTag on username (5)Dara. Str: 5
+    tryParseTag on username (5)Dara. Converting to tag.
+    assignBreakoutRooms() .. createOrUpdateUser(16781312)
+V/BRB: tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Str: Ŧ
+    tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Converting to tag.
+I/BRB: Phase 1 of BO Rooms Assignment complete
+D/BRB: Phase 2 -- breakoutRoomUsers.size: 3. zoom usersInMeeting.size: 4
+V/BRB: tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Str: Ŧ
+    tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Converting to tag.
+    Phase 2 -- User with SID [7a2e0cf3efc0070246ee6f3b3f7ca1a1] and username [(Ŧ) Mourud Ishmam Ahmed] has tag:
+    .. Room Number: [null], isLoneWolf: [false], isTrusted: [true]
+    tryParseTag on username (5)Dara. Str: 5
+    tryParseTag on username (5)Dara. Converting to tag.
+    Phase 2 -- User with SID [c7e457c40854978c97facaf740d4021d] and username [(5)Dara] has tag:
+    .. Room Number: [5], isLoneWolf: [false], isTrusted: [false]
+    tryParseTag on username (3) John Zou. Str: 3
+    tryParseTag on username (3) John Zou. Converting to tag.
+    Phase 2 -- User with SID [f54eb02b185a224748bda5f20c5f2faa] and username [(3) John Zou] has tag:
+    .. Room Number: [3], isLoneWolf: [false], isTrusted: [false]
+I/BRB: Phase 2 of BO Rooms Assignment complete
+
+V/BRB: start breakout rooms session, userId = 16781312
+
+V/BRB: assignBreakoutRooms() .. createOrUpdateUser(16779264)
+    tryParseTag on username (5)Dara. Str: 5
+    tryParseTag on username (5)Dara. Converting to tag.
+
+assignBreakoutRooms() .. createOrUpdateUser(16781312)
+V/BRB: tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Str: Ŧ
+    tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Converting to tag.
+I/BRB: Phase 1 of BO Rooms Assignment complete
+D/BRB: Phase 2 -- breakoutRoomUsers.size: 3. zoom usersInMeeting.size: 4
+V/BRB: tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Str: Ŧ
+    tryParseTag on username (Ŧ) Mourud Ishmam Ahmed. Converting to tag.
+V/BRB: Phase 2 -- User with SID [7a2e0cf3efc0070246ee6f3b3f7ca1a1] and username [(Ŧ) Mourud Ishmam Ahmed] has tag:
+    .. Room Number: [null], isLoneWolf: [false], isTrusted: [true]
+    tryParseTag on username (5)Dara. Str: 5
+    tryParseTag on username (5)Dara. Converting to tag.
+    Phase 2 -- User with SID [c7e457c40854978c97facaf740d4021d] and username [(5)Dara] has tag:
+    .. Room Number: [5], isLoneWolf: [false], isTrusted: [false]
+    tryParseTag on username (3) John Zou. Str: 3
+    tryParseTag on username (3) John Zou. Converting to tag.
+    Phase 2 -- User with SID [f54eb02b185a224748bda5f20c5f2faa] and username [(3) John Zou] has tag:
+V/BRB: .. Room Number: [3], isLoneWolf: [false], isTrusted: [false]
+
+I/BRB: Phase 2 of BO Rooms Assignment complete
+
+D/BRB: BOAdminHelper::startBO returned: true
+
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    self message
+
+D/ZoomSDKExample: onMeetingStatusChanged MEETING_STATUS_DISCONNECTING:0
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+I/MobileRTCVideoView: surfaceDestroyed group index =10607461
+I/MobileRTCVideoView: onDestroy: group index = 10607461
+E/libEGL: call to OpenGL ES API with no current context (logged once per thread)
+D/AudioTrack: stop(54): called with 39319680 frames delivered
+D/ZoomSDKExample: onMeetingStatusChanged MEETING_STATUS_IDLE:0
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+I/ZoomSDKExample: InitAuthSDKActivity about to MeetingService::joinMeetingWithParams
+I/MeetingService: joinMeetingWithParams: sUri=zoomus://zoom.us/join?confno=8444151030&uname=BreakoutRoomBot&show_water_mark=1&meeting_views_options=0&invite_options=255&zc=0
+W/Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+W/Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+D/ZoomSDKExample: onMeetingStatusChanged MEETING_STATUS_CONNECTING:0
+I/ZoomSDKExample: onMeetingStatusChanged about to showMeetingUi
+    showMeetingUi()
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@6c03a87
+I/MobileRTCVideoView: surfaceCreated group index =173734762
+D/HostConnection: HostConnection::get() New Host Connection established 0xca62cd10, tid 22538
+    HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xebbbe9a0: maj 3 min 0 rcv 3
+D/EGL_emulation: eglMakeCurrent: 0xebbbe9a0: ver 3 0 (tinfo 0xf4d898c0)
+I/MobileRTCVideoView: onGLSurfaceChanged group index =173734762, width=1080, height=1794
+I/MobileRTCVideoView: onGLSurfaceChanged group index =173734762, width=1080, height=1794
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 173734762, width=1080, height=1794
+I/MobileRTCVideoView: startRender: group index = 173734762
+W/CameraBase: An error occurred while connecting to camera 1: Status(-8, EX_SERVICE_SPECIFIC): '1: validateClientPermissionsLocked:978: Caller "us.zoom.sdkexample" (PID 10135, UID 22020) cannot open camera "1" without camera permission'
+W/CameraBase: An error occurred while connecting to camera 1: Status(-8, EX_SERVICE_SPECIFIC): '1: validateClientPermissionsLocked:978: Caller "us.zoom.sdkexample" (PID 10135, UID 22020) cannot open camera "1" without camera permission'
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 173734762, width=1080, height=1794
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+I/AssistStructure: Flattened final assist data: 6064 bytes, containing 2 windows, 46 views
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+D/EGL_emulation: eglMakeCurrent: 0xebbfce20: ver 3 0 (tinfo 0xca3a9a20)
+W/AudioTrack: Use of stream types is deprecated for operations other than volume control
+    See the documentation of AudioTrack() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+W/zoom.sdkexample: type=1400 audit(0.0:200): avc: denied { ioctl } for path="socket:[222986]" dev="sockfs" ino=222986 ioctlcmd=0x8927 scontext=u:r:untrusted_app:s0:c135,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c135,c256,c512,c768 tclass=udp_socket permissive=0
+W/AudioTrack: Use of stream types is deprecated for operations other than volume control
+    See the documentation of AudioTrack() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+I/MobileRTCVideoView: surfaceCreated group index =17628382
+D/HostConnection: HostConnection::get() New Host Connection established 0xe1a3fe10, tid 22557
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xe1a1a4e0: maj 3 min 0 rcv 3
+I/MobileRTCVideoView: surfaceCreated group index =122419413
+D/HostConnection: HostConnection::get() New Host Connection established 0xc297d5b0, tid 22558
+I/MobileRTCVideoView: surfaceCreated group index =175669880
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xebbad840: maj 3 min 0 rcv 3
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a4e0: ver 3 0 (tinfo 0xe1a0fb60)
+D/MeetingVideoCallback: onMeetingActiveVideo:16778240
+I/chatty: uid=10135(us.zoom.sdkexample) identical 1 line
+D/MeetingVideoCallback: onMeetingActiveVideo:16778240
+D/HostConnection: HostConnection::get() New Host Connection established 0xe1a3ffa0, tid 22559
+D/MeetingVideoCallback: onMeetingActiveVideo:16778240
+D/ZoomSDKExample: onMeetingStatusChanged MEETING_STATUS_INMEETING:0
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+D/EGL_emulation: eglMakeCurrent: 0xebbad840: ver 3 0 (tinfo 0xc55d5340)
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xe1a1a960: maj 3 min 0 rcv 3
+I/MobileRTCVideoView: onGLSurfaceChanged group index =17628382, width=254, height=254
+    onGLSurfaceChanged group index =17628382, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged group index =122419413, width=254, height=254
+    onGLSurfaceChanged group index =122419413, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 17628382, width=254, height=254
+I/MobileRTCVideoView: startRender: group index = 17628382
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 17628382, width=254, height=254
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a960: ver 3 0 (tinfo 0xe1a0fc10)
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 122419413, width=254, height=254
+    startRender: group index = 122419413
+I/MobileRTCVideoView: onGLSurfaceChanged group index =175669880, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged group index =175669880, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 122419413, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 175669880, width=254, height=254
+    startRender: group index = 175669880
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 175669880, width=254, height=254
+D/MyMeetingActivity: onHasDataHelperRightsNotification
+I/MobileRTCVideoView: surfaceCreated group index =86734941
+D/HostConnection: HostConnection::get() New Host Connection established 0xc053b080, tid 22566
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xc6ce70a0: maj 3 min 0 rcv 3
+D/EGL_emulation: eglMakeCurrent: 0xc6ce70a0: ver 3 0 (tinfo 0xca7502b0)
+I/MobileRTCVideoView: onGLSurfaceChanged group index =86734941, width=254, height=254
+    onGLSurfaceChanged group index =86734941, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 86734941, width=254, height=254
+I/MobileRTCVideoView: startRender: group index = 86734941
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 86734941, width=254, height=254
+D/MeetingVideoCallback: onMeetingActiveVideo:16781312
+    onMeetingActiveVideo:16781312
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    respondToPrivateChatMessage
+    respondToTrustCommand invalid # of args, userId = 16778240
+I/BRB: sdkErr: SDKERR_SUCCESS
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    self message
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    respondToPrivateChatMessage
+    trustUser
+V/BRB: trustUser not host, userId = 16778240
+I/BRB: sdkErr: SDKERR_SUCCESS
+V/BRB: MeetingCommonCallback onChatMessageReceived
+    self message
+V/BRB: MeetingCommonCallback onChatMessageReceived
+V/BRB: respondToPrivateChatMessage
+    respondToAssignAllBreakoutRoomsCommand, userId = 16778240
+I/BRB: sdkErr: SDKERR_SUCCESS
+V/BRB: assignBreakoutRooms()
+    setupBreakoutRooms()
+V/BRB: createBO returned: BreakoutRoom(name=Instructors, boID=70344DF0-6617-420C-9447-76F8BB92768D, assignedUsers=[])
+    createBO returned: C65C66A5-1A9D-4F3C-867A-53492E9C06F5
+V/BRB: createBO returned: DA9BABDA-BA84-40DF-BC8B-6461C8D4544D
+    createBO returned: BFB6BCFB-0E6C-4EA5-9582-6D81BD78542A
+    createBO returned: 065E80FF-91E6-4937-8E9D-ECE8E5B82736
+V/BRB: createBO returned: C0000641-660B-409C-BC01-1B6FA69E3F02
+    createBO returned: 330B06C1-3451-4526-9D43-80F03CD4D5AF
+V/BRB: createBO returned: 548C2769-71A6-4F50-B0F8-4C339D329D58
+    createBO returned: 23A1AA18-DFFC-42F1-B5DF-77D7780422FB
+    createBO returned: 58BFB2AB-5C36-4219-ACBC-BACF89A84006
+V/BRB: createBO returned: 130A6039-3AC8-4B0B-A1C2-DD464F6EE8D3
+    createBO returned: AD91FA7E-4CA6-4425-8CD0-C4C0B1D0C6DC
+V/BRB: createBO returned: 3EB87D1E-4CDC-4290-8CC8-2DA15C86DE8E
+    createBO returned: D11B6489-DB75-497A-921F-DBC141C7DF68
+V/BRB: createBO returned: B828807C-22D4-4AB0-B248-B90FB6A695F1
+    createBO returned: E277110C-6189-429C-91B6-506B61B343E1
+V/BRB: createBO returned: EF59CD0C-22CA-49C4-BEDA-753151836B56
+    createBO returned: 7B7A3DA9-56FA-4596-B6AF-9DE13DB35DB2
+V/BRB: createBO returned: 6973090F-42CB-440A-A87B-91BD2FBF32E4
+    createBO returned: D1DF42A5-EB5B-4B55-8077-A837109E320A
+V/BRB: createBO returned: B81E9A2D-FA41-4EDB-B017-3A64DF8B197E
+V/BRB: createBO returned: 9C97FEB6-002C-49EE-956D-9786C54A5BB3
+V/BRB: createBO returned: 085EA47F-2271-4E01-A931-0D433E360F4C
+    createBO returned: 45F7CD9B-46DD-4932-927C-CB5820B7FC9D
+V/BRB: createBO returned: DCE01449-6739-43F2-93B1-7FE39D03F140
+    createBO returned: B7536470-D3B0-4586-AD97-2F2B5DDD9C01
+V/BRB: createBO returned: A6CD734E-E90A-42E2-A118-B18390BC6600
+    createBO returned: 48519791-5AD7-4063-BCFB-ADEEC85E2044
+    createBO returned: 845B05E3-B3FD-4377-BEB5-33506C77E26F
+    createBO returned: CEFC0777-2BF7-4DBC-ACAC-360C639B07E1
+V/BRB: createBO returned: D736E6A3-4EBC-42CE-A5C9-057FD6225D83
+    createBO returned: ADC83FB4-8856-4C9F-8B70-9A89071430C1
+V/BRB: createBO returned: 5FB3BB34-5B70-4914-A1B3-8C6DF6948163
+    createBO returned: 27DF2AE6-36D6-40DF-8ED3-F940AD221B6A
+    createBO returned: 5F96B7A5-5A7C-4D50-91A1-4450AFB2C001
+V/BRB: createBO returned: BA555714-B568-4EFB-997D-31448FF75098
+    createBO returned: F1B45662-347A-4147-B338-3C62C85C7BC7
+    createBO returned: E9A37876-32B1-4344-9BFB-47483D8961F2
+V/BRB: createBO returned: E63998EC-70D9-4C39-BFE8-7F5A29DD686A
+    createBO returned: 30411DEC-A003-4C4A-A320-EFBEEBF0F762
+    createBO returned: 0E8A5813-F78F-4419-85EF-4FC07A703424
+V/BRB: createBO returned: 905F8475-A726-486B-8D37-5529805FD2D8
+    createBO returned: 7A304E9D-E4EF-445E-95A3-E6001DF949B1
+    createBO returned: EF9C6C58-5D37-4C6A-9578-9D0784543D3A
+V/BRB: createBO returned: 6CBD41D7-46FE-482B-A5F2-D8E12AF36F3E
+    createBO returned: 3CD672A9-0C83-4C1C-9E63-76095D6BE1B4
+    createBO returned: 2FCB13FA-1F94-4236-84F5-F7D6B5530AA1
+    createBO returned: 22A55BD1-7770-434D-A575-4DF1ACF6488F
+V/BRB: createBO returned: 7924C42E-392B-4965-91CF-C774EF1DC4DE
+    createBO returned: BreakoutRoom(name=Lone Wolves, boID=AC48D956-BE55-4F22-AD8D-0B831600E292, assignedUsers=[])
+    setupBreakoutRooms() complete. anyRoomFailedToCreate: false
+    clearBreakoutRooms()
+V/BRB: Getting BO by ID: 065E80FF-91E6-4937-8E9D-ECE8E5B82736
+    Getting BO by ID: 085EA47F-2271-4E01-A931-0D433E360F4C
+    Getting BO by ID: 0E8A5813-F78F-4419-85EF-4FC07A703424
+    Getting BO by ID: 130A6039-3AC8-4B0B-A1C2-DD464F6EE8D3
+    Getting BO by ID: 22A55BD1-7770-434D-A575-4DF1ACF6488F
+    Getting BO by ID: 23A1AA18-DFFC-42F1-B5DF-77D7780422FB
+    Getting BO by ID: 27DF2AE6-36D6-40DF-8ED3-F940AD221B6A
+    Getting BO by ID: 2FCB13FA-1F94-4236-84F5-F7D6B5530AA1
+    Getting BO by ID: 30411DEC-A003-4C4A-A320-EFBEEBF0F762
+V/BRB: Getting BO by ID: 330B06C1-3451-4526-9D43-80F03CD4D5AF
+    Getting BO by ID: 3CD672A9-0C83-4C1C-9E63-76095D6BE1B4
+    Getting BO by ID: 3EB87D1E-4CDC-4290-8CC8-2DA15C86DE8E
+    Getting BO by ID: 45F7CD9B-46DD-4932-927C-CB5820B7FC9D
+    Getting BO by ID: 48519791-5AD7-4063-BCFB-ADEEC85E2044
+    Getting BO by ID: 548C2769-71A6-4F50-B0F8-4C339D329D58
+    Getting BO by ID: 58BFB2AB-5C36-4219-ACBC-BACF89A84006
+V/BRB: Getting BO by ID: 5F96B7A5-5A7C-4D50-91A1-4450AFB2C001
+    Getting BO by ID: 5FB3BB34-5B70-4914-A1B3-8C6DF6948163
+    Getting BO by ID: 6973090F-42CB-440A-A87B-91BD2FBF32E4
+    Getting BO by ID: 6CBD41D7-46FE-482B-A5F2-D8E12AF36F3E
+    Getting BO by ID: 70344DF0-6617-420C-9447-76F8BB92768D
+    Getting BO by ID: 7924C42E-392B-4965-91CF-C774EF1DC4DE
+V/BRB: Getting BO by ID: 7A304E9D-E4EF-445E-95A3-E6001DF949B1
+    Getting BO by ID: 7B7A3DA9-56FA-4596-B6AF-9DE13DB35DB2
+V/BRB: Getting BO by ID: 845B05E3-B3FD-4377-BEB5-33506C77E26F
+    Getting BO by ID: 905F8475-A726-486B-8D37-5529805FD2D8
+    Getting BO by ID: 9C97FEB6-002C-49EE-956D-9786C54A5BB3
+    Getting BO by ID: A6CD734E-E90A-42E2-A118-B18390BC6600
+    Getting BO by ID: AC48D956-BE55-4F22-AD8D-0B831600E292
+V/BRB: Getting BO by ID: AD91FA7E-4CA6-4425-8CD0-C4C0B1D0C6DC
+    Getting BO by ID: ADC83FB4-8856-4C9F-8B70-9A89071430C1
+    Getting BO by ID: B7536470-D3B0-4586-AD97-2F2B5DDD9C01
+    Getting BO by ID: B81E9A2D-FA41-4EDB-B017-3A64DF8B197E
+    Getting BO by ID: B828807C-22D4-4AB0-B248-B90FB6A695F1
+    Getting BO by ID: BA555714-B568-4EFB-997D-31448FF75098
+    Getting BO by ID: BFB6BCFB-0E6C-4EA5-9582-6D81BD78542A
+V/BRB: Getting BO by ID: C0000641-660B-409C-BC01-1B6FA69E3F02
+    Getting BO by ID: C65C66A5-1A9D-4F3C-867A-53492E9C06F5
+    Getting BO by ID: CEFC0777-2BF7-4DBC-ACAC-360C639B07E1
+    Getting BO by ID: D11B6489-DB75-497A-921F-DBC141C7DF68
+    Getting BO by ID: D1DF42A5-EB5B-4B55-8077-A837109E320A
+V/BRB: Getting BO by ID: D736E6A3-4EBC-42CE-A5C9-057FD6225D83
+    Getting BO by ID: DA9BABDA-BA84-40DF-BC8B-6461C8D4544D
+    Getting BO by ID: DCE01449-6739-43F2-93B1-7FE39D03F140
+    Getting BO by ID: E277110C-6189-429C-91B6-506B61B343E1
+    Getting BO by ID: E63998EC-70D9-4C39-BFE8-7F5A29DD686A
+V/BRB: Getting BO by ID: E9A37876-32B1-4344-9BFB-47483D8961F2
+    Getting BO by ID: EF59CD0C-22CA-49C4-BEDA-753151836B56
+V/BRB: Getting BO by ID: EF9C6C58-5D37-4C6A-9578-9D0784543D3A
+    Getting BO by ID: F1B45662-347A-4147-B338-3C62C85C7BC7
+    .. inMeetingUserList size: 4
+    assignBreakoutRooms() .. createOrUpdateUser(16778240)
+V/BRB: No parentheses. First non-whitespace character is not a digit
+V/BRB: tryParseTag on username Mourud Ishmam Ahmed. Str: null
+    tryParseTag on username Mourud Ishmam Ahmed. Converting to tag.
+    assignBreakoutRooms() .. createOrUpdateUser(16778240) .. giving trusted tag to trusted user without trusted tag
+V/BRB: assignBreakoutRooms() .. createOrUpdateUser(16779264)
+    No parentheses. First non-whitespace character is not a digit
+    tryParseTag on username John Zou. Str: null
+    tryParseTag on username John Zou. Converting to tag.
+    assignBreakoutRooms() .. createOrUpdateUser(16781312)
+V/BRB: No parentheses. First non-whitespace character is not a digit
+    tryParseTag on username Dara. Str: null
+    tryParseTag on username Dara. Converting to tag.
+    assignBreakoutRooms() .. createOrUpdateUser(16781312) .. giving trusted tag to trusted user without trusted tag
+D/AndroidRuntime: Shutting down VM
+E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: us.zoom.sdkexample, PID: 22020
+    java.util.NoSuchElementException: Collection is empty.
+        at kotlin.collections.CollectionsKt___CollectionsKt.first(_Collections.kt:194)
+        at ca.ubc.cs.zoombrb.android.BreakoutRoomBot$assignBreakoutRooms$5.invoke(BreakoutRoomBot.kt:372)
+        at ca.ubc.cs.zoombrb.android.BreakoutRoomBot.assignBreakoutRooms(BreakoutRoomBot.kt:378)
+        at ca.ubc.cs.zoombrb.android.BreakoutRoomBot.respondToAssignAllBreakoutRoomsCommand(BreakoutRoomBot.kt:574)
+        at ca.ubc.cs.zoombrb.android.BreakoutRoomBot.respondToPrivateChatMessage(BreakoutRoomBot.kt:550)
+        at ca.ubc.cs.zoombrb.android.BreakoutRoomBot.respondToChatMessage(BreakoutRoomBot.kt:73)
+        at us.zoom.sdksample.inmeetingfunction.customizedmeetingui.other.MeetingCommonCallback$2.onChatMessageReceived(MeetingCommonCallback.java:76)
+        at us.zoom.sdk.InMeetingServiceImpl.sinkChatMessageReceived(InMeetingServiceImpl.java:1654)
+        at us.zoom.sdk.InMeetingServiceImpl.access$1200(InMeetingServiceImpl.java:58)
+        at us.zoom.sdk.InMeetingServiceImpl$1$11.run(InMeetingServiceImpl.java:257)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:214)
+        at android.app.ActivityThread.main(ActivityThread.java:7356)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+W/Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+I/Process: Sending signal. PID: 22020 SIG: 9
+Connected to process 22582 on device 'Pixel_2_API_29 [emulator-5554]'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/MultiDex: VM with version 2.1.0 has multidex support
+    Installing application
+    VM has multidex support, MultiDex support library is disabled.
+D/libEGL: Emulator has host GPU support, qemu.gles is set to 1.
+W/libc: Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+W/RenderThread: type=1400 audit(0.0:203): avc: denied { write } for name="property_service" dev="tmpfs" ino=7888 scontext=u:r:untrusted_app:s0:c135,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+D/libEGL: loaded /vendor/lib/egl/libEGL_emulation.so
+D/libEGL: loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+D/libEGL: loaded /vendor/lib/egl/libGLESv2_emulation.so
+I/System.out: InitAuthSDKActivity onCreate
+I/System.out: isLoggedIn: false
+I/System.out: InitAuthSDKActivity onCreate about to initSDK
+E/BluetoothAdapter: Bluetooth binder is null
+D/[BreakpadHandler::BreakpadHandler]: initialized BreakpadHandler
+I/Mainboard: installNativeCrashHandler, res=0
+E/BluetoothAdapter: Bluetooth binder is null
+W/Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+I/ZoomSDK: setDomain, set Zoom domain as zoom.us
+I/System.out: InitAuthSDKActivity done initSDK
+    ..isInitialized: false
+D/HostConnection: HostConnection::get() New Host Connection established 0xe1a4d2d0, tid 22614
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xe1a1a1e0: maj 3 min 0 rcv 3
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+W/Gralloc3: mapper 3.x is not supported
+D/HostConnection: createUnique: call
+D/HostConnection: HostConnection::get() New Host Connection established 0xe1a4d5f0, tid 22614
+    HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+D/eglCodecCommon: allocate: Ask for block of size 0x1000
+    allocate: ioctl allocate returned offset 0x3ff805000 size 0x2000
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 1 0
+I/InitAuthSDKHelper: onZoomSDKInitializeResult, errorCode=0, internalErrorCode=0
+I/ZoomSDKExample: onZoomSDKInitializeResult, errorCode=0, internalErrorCode=0
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+I/AssistStructure: Flattened final assist data: 2388 bytes, containing 1 windows, 12 views
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+I/ZoomSDKExample: InitAuthSDKActivity about to MeetingService::joinMeetingWithParams
+I/MeetingService: joinMeetingWithParams: sUri=zoomus://zoom.us/join?confno=8444151030&uname=BreakoutRoomBot&show_water_mark=1&meeting_views_options=0&invite_options=255&zc=0
+W/Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+W/CameraBase: An error occurred while connecting to camera 0: Status(-8, EX_SERVICE_SPECIFIC): '1: validateClientPermissionsLocked:978: Caller "us.zoom.sdkexample" (PID 10135, UID 22582) cannot open camera "0" without camera permission'
+W/CameraBase: An error occurred while connecting to camera 1: Status(-8, EX_SERVICE_SPECIFIC): '1: validateClientPermissionsLocked:978: Caller "us.zoom.sdkexample" (PID 10135, UID 22582) cannot open camera "1" without camera permission'
+W/Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+D/ZoomSDKExample: onMeetingStatusChanged MEETING_STATUS_CONNECTING:0
+I/ZoomSDKExample: onMeetingStatusChanged about to showMeetingUi
+    showMeetingUi()
+W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@2de0f5b
+I/MobileRTCVideoView: surfaceCreated group index =166901381
+D/HostConnection: HostConnection::get() New Host Connection established 0xca5e9980, tid 22667
+    HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xebbae380: maj 3 min 0 rcv 3
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+D/EGL_emulation: eglMakeCurrent: 0xebbae380: ver 3 0 (tinfo 0xf4d898a0)
+I/MobileRTCVideoView: onGLSurfaceChanged group index =166901381, width=1080, height=1794
+I/MobileRTCVideoView: onGLSurfaceChanged group index =166901381, width=1080, height=1794
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 166901381, width=1080, height=1794
+I/MobileRTCVideoView: startRender: group index = 166901381
+W/CameraBase: An error occurred while connecting to camera 1: Status(-8, EX_SERVICE_SPECIFIC): '1: validateClientPermissionsLocked:978: Caller "us.zoom.sdkexample" (PID 10135, UID 22582) cannot open camera "1" without camera permission'
+W/CameraBase: An error occurred while connecting to camera 1: Status(-8, EX_SERVICE_SPECIFIC): '1: validateClientPermissionsLocked:978: Caller "us.zoom.sdkexample" (PID 10135, UID 22582) cannot open camera "1" without camera permission'
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 166901381, width=1080, height=1794
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+I/AssistStructure: Flattened final assist data: 6064 bytes, containing 2 windows, 46 views
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+D/EGL_emulation: eglMakeCurrent: 0xe1a1a1e0: ver 3 0 (tinfo 0xe1a0f710)
+W/AudioTrack: Use of stream types is deprecated for operations other than volume control
+    See the documentation of AudioTrack() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+W/zoom.sdkexample: type=1400 audit(0.0:204): avc: denied { ioctl } for path="socket:[223158]" dev="sockfs" ino=223158 ioctlcmd=0x8927 scontext=u:r:untrusted_app:s0:c135,c256,c512,c768 tcontext=u:r:untrusted_app:s0:c135,c256,c512,c768 tclass=udp_socket permissive=0
+W/AudioTrack: Use of stream types is deprecated for operations other than volume control
+    See the documentation of AudioTrack() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+I/MobileRTCVideoView: surfaceCreated group index =145211918
+I/MobileRTCVideoView: surfaceCreated group index =150512581
+D/HostConnection: HostConnection::get() New Host Connection established 0xe1a4e090, tid 22696
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xc412d440: maj 3 min 0 rcv 3
+D/HostConnection: HostConnection::get() New Host Connection established 0xc56623a0, tid 22697
+    HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+I/MobileRTCVideoView: surfaceCreated group index =239443496
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xf4d7fd00: maj 3 min 0 rcv 3
+D/EGL_emulation: eglMakeCurrent: 0xf4d7fd00: ver 3 0 (tinfo 0xc54d3a80)
+D/HostConnection: HostConnection::get() New Host Connection established 0xe1a4e1d0, tid 22698
+    HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+I/MobileRTCVideoView: surfaceCreated group index =132799015
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xc412d5c0: maj 3 min 0 rcv 3
+I/MobileRTCVideoView: onGLSurfaceChanged group index =150512581, width=254, height=254
+D/HostConnection: HostConnection::get() New Host Connection established 0xc5664ba0, tid 22699
+    HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_free_memory_sync GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+D/MeetingVideoCallback: onMeetingActiveVideo:16781312
+    onMeetingActiveVideo:16781312
+D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+D/EGL_emulation: eglCreateContext: 0xca4c3820: maj 3 min 0 rcv 3
+I/MobileRTCVideoView: onGLSurfaceChanged group index =150512581, width=254, height=254
+D/MeetingVideoCallback: onMeetingActiveVideo:16781312
+I/chatty: uid=10135(us.zoom.sdkexample) identical 1 line
+D/MeetingVideoCallback: onMeetingActiveVideo:16781312
+D/ZoomSDKExample: onMeetingStatusChanged MEETING_STATUS_INMEETING:0
+D/EGL_emulation: eglMakeCurrent: 0xc412d440: ver 3 0 (tinfo 0xc414f940)
+I/MobileRTCVideoView: onGLSurfaceChanged group index =145211918, width=254, height=254
+    onGLSurfaceChanged group index =145211918, width=254, height=254
+D/EGL_emulation: eglMakeCurrent: 0xca4c3820: ver 3 0 (tinfo 0xca419660)
+I/MobileRTCVideoView: onGLSurfaceChanged group index =132799015, width=254, height=254
+    onGLSurfaceChanged group index =132799015, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 150512581, width=254, height=254
+I/MobileRTCVideoView: startRender: group index = 150512581
+D/EGL_emulation: eglMakeCurrent: 0xc412d5c0: ver 3 0 (tinfo 0xc414f980)
+I/MobileRTCVideoView: onGLSurfaceChanged group index =239443496, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged group index =239443496, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 150512581, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 145211918, width=254, height=254
+I/MobileRTCVideoView: startRender: group index = 145211918
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 145211918, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 132799015, width=254, height=254
+    startRender: group index = 132799015
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 132799015, width=254, height=254
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 239443496, width=254, height=254
+I/MobileRTCVideoView: startRender: group index = 239443496
+I/MobileRTCVideoView: onGLSurfaceChanged: groupIndex = 239443496, width=254, height=254
